@@ -16,7 +16,10 @@ class _StartScreenState extends State<StartScreen> {
         leading: Padding(
           padding: const EdgeInsets.all(2.0),
           child: Image.asset(
-              'assets/images/assets/images/3-animes-interesantes-chainsaw-man.jpg'),
+            'assets/images/4043233-anime-away-face-no-nobody-spirited_113254.png',
+            width: 200,
+            height: 200,
+          ),
         ),
         title: Text(
           'KC Tv',
@@ -38,22 +41,22 @@ class _StartScreenState extends State<StartScreen> {
       bottomNavigationBar: BottomNavigationBar(
         items: const <BottomNavigationBarItem>[
           BottomNavigationBarItem(
-            icon: Icon(Icons.sports_football),
-            label: 'Juegos completos',
-            backgroundColor: Colors.red,
+            icon: Icon(Icons.catching_pokemon_sharp),
+            label: 'Peliculas',
+            backgroundColor: Color.fromARGB(255, 255, 255, 255),
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.sports_soccer),
-            label: 'Cambio al Super Bowl LVII',
-            backgroundColor: Colors.red,
+            icon: Icon(Icons.catching_pokemon_outlined),
+            label: 'Directorio',
+            backgroundColor: Color.fromARGB(255, 255, 255, 255),
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.sports_soccer),
-            label: 'The Franchise',
-            backgroundColor: Colors.red,
+            icon: Icon(Icons.catching_pokemon),
+            label: 'Noticias',
+            backgroundColor: Color.fromARGB(255, 255, 255, 255),
           ),
         ],
-        backgroundColor: Color.fromARGB(255, 0, 27, 145),
+        backgroundColor: Color.fromARGB(255, 199, 140, 233),
         onTap: null,
       ),
     );

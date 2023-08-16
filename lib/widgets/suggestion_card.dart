@@ -11,17 +11,21 @@ class SuggestionCard extends StatelessWidget {
         ClipRRect(
           borderRadius: BorderRadius.circular(40),
           child: const Image(
-            image: AssetImage('assets/images/BAR5.png'),
+            image: AssetImage('assets/images/demon-slayer-1657889450.jpeg'),
+            width: 500,
+            height: 500,
           ),
         ),
-        const SizedBox(width: 20.0,),
+        const SizedBox(
+          width: 20.0,
+        ),
         Column(
           children: [
             SizedBox(
               width: 300,
               height: 50,
               child: Text(
-                'FC BARCELONA',
+                'Demon Slayer',
                 style: Theme.of(context).textTheme.headlineLarge,
               ),
             ),
@@ -29,7 +33,7 @@ class SuggestionCard extends StatelessWidget {
               width: 300,
               height: 200,
               child: Text(
-                'De acuerdo con la información de Mundo Deportivo, Iván Fresneda (18 años), joven talento del Real Valladolid, resulta del agrado de la secretaría técnica de los culés. Con una cláusula de rescisión que es de 20 M€, el vigente campeón de Primera División ha dado otro paso al frente por el lateral.',
+                'Tanjiro Kamado; un joven de buen corazón que vive con su familia en las montañas. Sin embargo, toda su vida cotidiana cambia radicalmente cuando en un viaje, regresa a casa y descubre que toda su familia había sido asesinada por un poderoso demonio llamado Muzan Kibutsuji.',
                 style: Theme.of(context).textTheme.bodyMedium,
               ),
             ),
