@@ -15,7 +15,8 @@ class _StartScreenState extends State<StartScreen> {
       appBar: AppBar(
         leading: Padding(
           padding: const EdgeInsets.all(2.0),
-          child: Image.asset('assets/images/BAR2.pn'),
+          child: Image.asset(
+              'assets/images/assets/images/3-animes-interesantes-chainsaw-man.jpg'),
         ),
         title: Text(
           'KC Tv',
