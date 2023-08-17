@@ -14,7 +14,7 @@ class _StartScreenState extends State<StartScreen> {
     return Scaffold(
       appBar: AppBar(
         leading: Padding(
-          padding: const EdgeInsets.all(2.0),
+          padding: const EdgeInsets.all(1.0),
           child: Image.asset(
             'assets/images/4043233-anime-away-face-no-nobody-spirited_113254.png',
             width: 200,
@@ -22,7 +22,7 @@ class _StartScreenState extends State<StartScreen> {
           ),
         ),
         title: Text(
-          'KC Tv',
+          'Anime Tv',
           style: Theme.of(context).textTheme.headlineLarge,
         ),
       ),
@@ -43,20 +43,20 @@ class _StartScreenState extends State<StartScreen> {
           BottomNavigationBarItem(
             icon: Icon(Icons.catching_pokemon_sharp),
             label: 'Peliculas',
-            backgroundColor: Color.fromARGB(255, 255, 255, 255),
+            backgroundColor: Color.fromARGB(255, 0, 0, 0),
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.catching_pokemon_outlined),
             label: 'Directorio',
-            backgroundColor: Color.fromARGB(255, 255, 255, 255),
+            backgroundColor: Color.fromARGB(255, 0, 0, 0),
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.catching_pokemon),
             label: 'Noticias',
-            backgroundColor: Color.fromARGB(255, 255, 255, 255),
+            backgroundColor: Color.fromARGB(255, 0, 0, 0),
           ),
         ],
-        backgroundColor: Color.fromARGB(255, 199, 140, 233),
+        backgroundColor: Color.fromARGB(255, 187, 52, 86),
         onTap: null,
       ),
     );
