@@ -1,9 +1,20 @@
 import 'package:flutter/material.dart';
+import 'package:kc_tv_app/model/item.dart';
+import 'package:kc_tv_app/screens/player_screen.dart';
 
-class SuggestionCard extends StatelessWidget {
-  const SuggestionCard({Key? key}) : super(key: key);
+class SuggestionCard extends StatefulWidget {
+  final Item item;
+
+   const SuggestionCard({Key? key, required this.item}) : super(key: key);
 
   @override
+  State<SuggestionCard> createState() => _SuggestionCardState();
+}
+class _SuggestionCardState extends State <SuggestionCard> {
+ 
+  @override
+    
+
   Widget build(BuildContext context) {
     return Row(
       mainAxisAlignment: MainAxisAlignment.center,
